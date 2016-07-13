@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Admin Login</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/login.css"/>
+  </head>
+    <body>
+    <section class="header">
+      <p>Admin Login</p>
+    </section>
+    <section class="formSection">
+      <table align="center">
+        <form method="post" action ="/users/loginValidate" onsubmit="check()">
+        <tr>
+          <td><input type="text" class="textbox" id="username" name="userName" required placeholder="Username"></td>
+        </tr>
+        <tr>
+          <td><input type="password" class="textbox" id="password" name="password" required placeholder="Password"></td>
+        </tr>
+        <tr>
+          <td><input type="submit" class="button" value="Login"></td>
+        </tr>
+      </form>
+      <!-- <tr>
+        <td>OR</td>
+      </tr>
+      <tr>
+        <td><a class="linkClass" href="/registerAdmin">Create Account</a</td>
+      </tr> -->
+      </table>
+    </section>
+    <script>
+    function check(){
+      
+    }
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </body>
+</html>

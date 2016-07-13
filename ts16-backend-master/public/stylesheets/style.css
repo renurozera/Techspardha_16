@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form-horizontal{
+ width:70%;
+ margin: 0px auto;
+}
+
+.star{
+ font-size: 25px;
+ color: green;
+ margin-left: 3px;
+}

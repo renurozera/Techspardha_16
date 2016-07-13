@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notification Panel</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+</head>
+<body>
+	<div class="row">
+		<form action="/gcmUser/sendNoti" method="POST">
+			<textarea placeholder="Notification Text" class="col-md-5 col-md-offset-3" name="noti" id="noti">		
+			</textarea>
+			<br/>
+
+			<input type="submit" value = "Submit" class="btn btn-primary">
+		</form>
+	</div>
+</body>
+</html>

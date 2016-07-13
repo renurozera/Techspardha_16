@@ -1,0 +1,28 @@
+<html>
+    <title>Admin Register</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/login.css"/>
+    <body>
+      <section class="header">
+        <p>Admin Registeration</p>
+      </section>
+      <section class="formSection">
+        <table align="center">
+          <form method="post" action ="/users/register">
+          <tr>
+            <td><input type="text" class="textbox" id="name" name="Name" required placeholder="Full Name"></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="username" class="textbox" name="userName" required placeholder="Username"></td>
+          </tr>
+          <tr>
+            <td><input type="password" class="textbox" id="password" name="password" required placeholder="Password"></td>
+          </tr>
+          <tr>
+            <td><input type="submit" class="button" value="Register"></td>
+          </tr>
+        </form>
+        </table>
+      </section>
+    </body>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</html>

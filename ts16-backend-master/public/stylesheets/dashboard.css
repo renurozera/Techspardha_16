@@ -1,0 +1,111 @@
+  body{
+         margin: 0px;
+         padding: 0px;
+      }
+
+      #myTable table{
+        width: 100%;
+        max-width: 100%;
+      }
+
+      #myTable table td {
+        max-width: 103px;
+        overflow: hidden;
+        padding: 10px;
+        max-height: 10px;
+      }
+
+      #descText{
+        overflow-x: auto;
+        overflow-y: auto;
+      }
+
+      #myTable table thead tr td{
+        font-size: 12px;
+        font-family:sans-serif;
+        border: 2px solid black;
+        background-color: lightgrey;
+        text-align: center;
+      }
+
+      .header{
+        height: 140px;
+        width: 100%;
+        background-color:black;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        color:white;
+        padding: 25px 0px;
+        font-family: sans-serif;
+      }
+
+      .header p{
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .header h1{
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .options{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 0px;
+        height: 100px;
+        position: absolute;
+        top:0px;
+      }
+
+      .logout{
+        float: right;
+        margin-top:5px;
+        margin-right: 10px;
+      }
+
+      .addEvent{
+        float: left;
+        margin-left: 15px;
+        margin-top: 50px;
+      }
+
+      .showMore{
+        padding: 0px;
+        margin: 0px;
+        border: 1px solid black;
+        width:70px;
+        background-color: white;
+        padding: 2px
+      }
+
+      .showMore:hover{
+        background-color: black;
+        color: white;
+      }
+      .btn-header{
+        border: 1px solid white;
+        background-color: black;
+        color:white;
+      }
+
+      .btn:hover{
+        color: black;
+        background-color: white;
+      }
+
+      .alter-but{
+        border:1px solid white;
+        background-color: white;
+        color:black;
+        border:1px solid black;
+        height: 50px;
+        font-size: 14px;
+      }
+
+      .alter-but:hover{
+        background-color: black;
+        color: white;
+      }
